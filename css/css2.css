@@ -4,12 +4,12 @@ a {
 }
 
 nav {
-    height: 5em;
+    height: 6em;
     background-color: rgb(83, 133, 68);
-    align-items: center;
 }
 
 ul {
+    align-items: center;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -25,15 +25,14 @@ section {
 }
 
 @media screen and (max-width: 400px){
-    ul {
-        display: block;
-        height: 100%;
-        align-items: center;
-    }
+
     section {
         display: block;
     }
     main {
         flex-wrap: wrap-reverse;
+    }
+    ul {
+        flex-direction: column;
     }
 }
