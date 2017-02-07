@@ -1,14 +1,25 @@
+
+a {
+    color: #bdd914;
+}
+
+nav {
+    height: 5em;
+    background-color: rgb(83, 133, 68);
+}
+
 ul {
     display: flex;
     justify-content: space-around;
+    list-style: none;
+    height: 100%;
+    align-items: center;
 }
 
 main {
     display: flex;
-    justify-content: space-between;
-    align-items: stretch;
 }
 
-h1 {
-    align-items: stretch;
+section {
+    display: flex;
 }
