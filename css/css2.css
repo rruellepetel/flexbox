@@ -27,7 +27,7 @@ section {
 @media screen and (max-width: 400px){
 
     section {
-        display: block;
+        flex-direction: column;
     }
     main {
         flex-wrap: wrap-reverse;
