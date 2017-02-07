@@ -6,6 +6,7 @@ a {
 nav {
     height: 5em;
     background-color: rgb(83, 133, 68);
+    align-items: center;
 }
 
 ul {
@@ -13,7 +14,6 @@ ul {
     justify-content: space-around;
     list-style: none;
     height: 100%;
-    align-items: center;
 }
 
 main {
@@ -22,4 +22,18 @@ main {
 
 section {
     display: flex;
+}
+
+@media screen and (max-width: 400px){
+    ul {
+        display: block;
+        height: 100%;
+        align-items: center;
+    }
+    section {
+        display: block;
+    }
+    main {
+        flex-wrap: wrap-reverse;
+    }
 }
