@@ -4,4 +4,18 @@ ul {
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
 }
+
+/*.first  {
+    order: 1;
+}
+
+.last {
+    order: 0;
+}*/
+/*
+
+.last {
+    align-self: flex-end;
+}*/
